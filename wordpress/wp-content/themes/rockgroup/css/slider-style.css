@@ -1,0 +1,222 @@
+.fullScreenSlider,
+.fullScreenSlider.globalColor .sliderHeader .slideContent:before { background-color:#1172d3; }
+
+.fullScreenSlider .topWrap,
+.fullScreenSlider .topGlobal .topMenuStyleLine > ul > li ul
+	{ background-color: rgba(17,114,211,0.7);}
+
+
+.sliderHeader .rsBullets .rsBullet span,
+/*15px*/ {-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px ;}
+
+
+
+
+.fullScreenSlider{ position: relative;}
+.fullScreenSlider header{ position: fixed; top: 0; left: 0; width: 100%; z-index: 100;}
+.fullScreenSlider header.fixedTopMenu .topWrap{
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none; }
+.fullScreenSlider.globalColor .sliderHeader .slideContent:before{ content: ''; display: block; width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 4;
+	opacity: 0.5; filter: alpha(opacity=50);
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";}
+.fullScreenSlider .sliderHeader .slideContent .textBlock,
+.fullScreenSlider .sliderHeader .slideContent .order{ color: #fff;}
+.fullScreenSlider .sliderHeader .slideContent .fonBlock{ position: absolute; z-index: 2; left: 0;top: 0; width: 100%; height: 100%; 
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+		    background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	     -o-background-size: 100% auto;
+	   -moz-background-size: 100% auto;
+}
+
+/* ======= fullScreenSlider effect*/
+/*animation Top left*/
+.fullScreenSlider .sliderHeader .slideContent.sliderBGanima.rsTopLeft .fonBlock {  
+			animation: rsTopLeft 50s infinite;  
+	-webkit-animation: rsTopLeft 50s infinite;  
+}
+
+@keyframes rsTopLeft {
+  	0% ,100% {
+	-webkit-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	   -moz-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	     -o-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	    -ms-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	        transform: translate(0px, 0px) scale(1.2, 1.2);
+	    } 
+	50% { 
+  	-webkit-transform: translate(150px, 50px) scale(1.2, 1.2); 
+	   -moz-transform: translate(150px, 50px) scale(1.2, 1.2); 
+	     -o-transform: translate(150px, 50px) scale(1.2, 1.2); 
+	    -ms-transform: translate(150px, 50px) scale(1.2, 1.2); 
+	        transform: translate(150px, 50px) scale(1.2, 1.2); 
+	    } 
+  }
+
+@-webkit-keyframes rsTopLeft {
+  	0% ,100% {
+	-webkit-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	   -moz-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	     -o-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	    -ms-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	        transform: translate(0px, 0px) scale(1.2, 1.2);
+	    } 
+	50% { 
+  	-webkit-transform: translate(150px, 50px) scale(1.2, 1.2); 
+	   -moz-transform: translate(150px, 50px) scale(1.2, 1.2); 
+	     -o-transform: translate(150px, 50px) scale(1.2, 1.2); 
+	    -ms-transform: translate(150px, 50px) scale(1.2, 1.2); 
+	        transform: translate(150px, 50px) scale(1.2, 1.2); 
+	    } 
+  }
+/*animation Top right*/
+.fullScreenSlider .sliderHeader .slideContent.sliderBGanima.rsTopRight .fonBlock {  
+			animation: rsTopRight 60s infinite;  
+	-webkit-animation: rsTopRight 60s infinite;  
+}
+@keyframes rsTopRight {
+  	0% ,100% {
+	-webkit-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	   -moz-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	     -o-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	    -ms-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	        transform: translate(0px, 0px) scale(1.2, 1.2);
+	    } 
+	50% { 
+  	-webkit-transform: translate(-100px, 100px) scale(1.4, 1.4); 
+	   -moz-transform: translate(-100px, 100px) scale(1.4, 1.4); 
+	     -o-transform: translate(-100px, 100px) scale(1.4, 1.4); 
+	    -ms-transform: translate(-100px, 100px) scale(1.4, 1.4); 
+	        transform: translate(-100px, 100px) scale(1.4, 1.4);
+	    } 
+  }
+
+@-webkit-keyframes rsTopRight {
+  	0% ,100% {
+	-webkit-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	   -moz-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	     -o-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	    -ms-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	        transform: translate(0px, 0px) scale(1.2, 1.2);
+	    } 
+	50% { 
+  	-webkit-transform: translate(-100px, 100px) scale(1.4, 1.4); 
+	   -moz-transform: translate(-100px, 100px) scale(1.4, 1.4); 
+	     -o-transform: translate(-100px, 100px) scale(1.4, 1.4); 
+	    -ms-transform: translate(-100px, 100px) scale(1.4, 1.4); 
+	        transform: translate(-100px, 100px) scale(1.4, 1.4);
+	    } 
+  }
+
+/*animation bottom left*/
+.fullScreenSlider .sliderHeader .slideContent.sliderBGanima.rsBottomLeft .fonBlock {  
+			animation: rsBottomLeft 50s infinite;  
+	-webkit-animation: rsBottomLeft 50s infinite;  
+}
+@keyframes rsBottomLeft {
+  	0% ,100% {
+	-webkit-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	   -moz-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	     -o-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	    -ms-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	        transform: translate(0px, 0px) scale(1.2, 1.2);
+	    } 
+	50% { 
+  	-webkit-transform: translate(200px, -100px) scale(1.4, 1.4); 
+	   -moz-transform: translate(200px, -100px) scale(1.4, 1.4); 
+	     -o-transform: translate(200px, -100px) scale(1.4, 1.4); 
+	    -ms-transform: translate(200px, -100px) scale(1.4, 1.4); 
+	        transform: translate(200px, -100px) scale(1.4, 1.4); 
+	    } 
+  }
+@-webkit-keyframes rsBottomLeft {
+  	0% ,100% {
+	-webkit-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	   -moz-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	     -o-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	    -ms-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	        transform: translate(0px, 0px) scale(1.2, 1.2);
+	    } 
+	50% { 
+  	-webkit-transform: translate(200px, -100px) scale(1.4, 1.4); 
+	   -moz-transform: translate(200px, -100px) scale(1.4, 1.4); 
+	     -o-transform: translate(200px, -100px) scale(1.4, 1.4); 
+	    -ms-transform: translate(200px, -100px) scale(1.4, 1.4); 
+	        transform: translate(200px, -100px) scale(1.4, 1.4); 
+	    } 
+  }
+
+
+/*animation bottom right*/
+.fullScreenSlider .sliderHeader .slideContent.sliderBGanima.rsBottomRight .fonBlock {  
+			animation: rsBottomRight 80s infinite;  
+	-webkit-animation: rsBottomRight 80s infinite;  
+}
+@keyframes rsBottomRight {
+  	0% ,100% {
+	-webkit-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	   -moz-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	     -o-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	    -ms-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	        transform: translate(0px, 0px) scale(1.2, 1.2);
+	    } 
+	50% { 
+	-webkit-transform: translate(-200px, -100px) scale(1.4, 1.4); 
+	   -moz-transform: translate(-200px, -100px) scale(1.4, 1.4); 
+	     -o-transform: translate(-200px, -100px) scale(1.4, 1.4); 
+	    -ms-transform: translate(-200px, -100px) scale(1.4, 1.4); 
+	        transform: translate(-200px, -100px) scale(1.4, 1.4); 
+	    } 
+  }
+
+@-webkit-keyframes rsBottomRight {
+  	0% ,100% {
+	-webkit-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	   -moz-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	     -o-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	    -ms-transform: translate(0px, 0px) scale(1.2, 1.2); 
+	        transform: translate(0px, 0px) scale(1.2, 1.2);
+	    } 
+	50% { 
+	-webkit-transform: translate(-200px, -100px) scale(1.4, 1.4); 
+	   -moz-transform: translate(-200px, -100px) scale(1.4, 1.4); 
+	     -o-transform: translate(-200px, -100px) scale(1.4, 1.4); 
+	    -ms-transform: translate(-200px, -100px) scale(1.4, 1.4); 
+	        transform: translate(-200px, -100px) scale(1.4, 1.4); 
+	    } 
+  }
+
+
+
+
+/*slider home*/
+.sliderHeader{ margin: 0 ; overflow: hidden; position: relative;}
+.sliderHeader .slideContent{ 
+	background-repeat: no-repeat;
+	background-position: 0 0;
+		    background-size: 100% 500px;
+	-webkit-background-size: 100% 500px;
+	     -o-background-size: 100% 500px;
+	   -moz-background-size: 100% 500px;}
+.sliderHeader .slideContent .main{ position: relative; height: 100%;}
+
+
+.sliderHeader .rsBullets{ height: 30px; position: absolute; left: 0; bottom: 20px; width: 100%;  text-align: center; } 
+.sliderHeader .rsBullets .rsBullet{ width: 30px; height: 20px; padding: 10px 0 0 0 ; display: inline-block;  cursor: pointer;   }
+.sliderHeader .rsBullets .rsBullet span{ content: ''; width: 10px; height: 10px; display: block; margin: 0 auto; text-align: center; background-color: #888888;}
+.fullScreenSlider .sliderHeader .rsBullets .rsBullet span{ background: #fff;}
+.sliderHeader .rsBullets .rsBullet.rsNavSelected { padding: 9px 0 0 0 ; height: 21px; cursor: default; ;}
+.sliderHeader .rsBullets .rsBullet.rsNavSelected span{ background-color: transparent; border: 1px solid #888888; width: 11px; height: 11px;    }
+.fullScreenSlider .sliderHeader .rsBullets .rsBullet.rsNavSelected span{ border-color: #fff;}
+
+
+
+/*revo*/
+.sliderHeader.slider_engine_revo .tp-bullets{ position: absolute; bottom: 20px; }
+
+
+.sliderHeader.slider_engine_revo .tp-leftarrow.default{}
+.sliderHeader.slider_engine_revo .tp-rightarrow.default{}
